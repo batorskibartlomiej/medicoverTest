@@ -15,9 +15,7 @@ public class LogIn extends TestBase {
 
 
 
-
-        DriverManager.getWebDriver().switchTo().parentFrame();
-        MainPage mainPage = new MainPage();
+        MainPage mainPage= new MainPage();
         mainPage.logIn();
     }
 
